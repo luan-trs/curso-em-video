@@ -1,0 +1,2 @@
+Essa foi a primeira pasta feita no Mundo 1 de Python. 
+Foi quando aprendi a fazer o básico pelo Idle
