@@ -1,0 +1,11 @@
+# Faça um programa que identifique os valores primitivos de algo #
+algo = input('Digite algo: ')
+print('Este item pertence a classe:', type(algo))
+print('Só possui espaços?', algo.isspace())
+print('É um numero? ', algo.isnumeric())
+print('É decimal? ', algo.isdecimal())
+print('É maiúsculo? ', algo.isupper())
+print('É minúsculo? ', algo.islower())
+print('É alfabético? ', algo.isalpha())
+print ('É alfanumérico? ', algo.isalnum())
+print ('É um digito? ',algo.isdigit())
