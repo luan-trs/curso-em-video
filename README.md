@@ -1,2 +1,3 @@
 # curso em video
-Exercícios e desafios feitos nos cursos do Curso em Vídeo
+Olá!!
+Esse é o meu primeiro repositório. Fiz ele com o intuito de guardar os meus exercícios feitos nos cursos do professor Gustavo Guanabara.
