@@ -11,19 +11,19 @@ valor = int(input('Quanto deseja sacar? R$'))
 while True:
     if valor//50 > 0:
         notas50 = valor//50
-        valor = valor-(valor//50*notas50)
+        valor = valor-50*notas50
         print(f'Notas de R$50: {notas50} ')
     if valor//20 > 0:
         notas20 = valor//20
-        valor = valor-(valor//20*notas20)
+        valor = valor-(20*notas20)
         print(f'Notas de R$20: {notas20}')
     if valor//10 > 0:
         notas10 = valor//10
-        valor = valor-(valor//10*10)
+        valor = valor-(10*10)
         print(f'Notas de R$10: {notas10}')
-    if valor//1 > 0:
-        notas1 = valor//1
-        valor = valor-(valor//1)
-        print(f'Notas de R$1: {notas1}')
+    if valor%10 > 0:
+        moedas = valor%10
+        valor = valor-moedas
+        print(f'Moedas de R$1: {moedas}')
     break
-print(valor)
+print('\033[32m*** FIM DO PROGRAMA ***\033[0m')
