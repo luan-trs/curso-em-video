@@ -14,13 +14,13 @@ while True:
     computador = randint(0, 10)
     escolha = input('Você escolhe par ou ímpar?[p/i] ').lower()
 
-    print('-'*15)
+    print('---'*10)
     if (computador+user)%2 == 0:
         result = 'p'
     else:
         result = 'i'
     print(f'Usuário: {user} | Computador: {computador} | {user+computador} é {'par' if result == 'p' else 'ímpar'}')
-    print('-'*15)
+    print('---'*10)
     
     if escolha == result:
         print('\033[32mVOCÊ VENCEU!\033[0m')
