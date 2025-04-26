@@ -1,7 +1,6 @@
 #Faça um programa que jogue par ou ímpar. O jogo será interrompido quando o usuario perder
 #Mostre o total de vitórias consecutivas que ele conquistou
 from random import randint
-from os import system
 
 result = 0
 vitorias = 0
@@ -30,7 +29,6 @@ while True:
     else:
         break
 
-system('cls') #limpa a tela
 print('\033[31mGAME OVER\033[0m')
 print(f'Você perdeu com {vitorias} vitórias consecutivas')
     
