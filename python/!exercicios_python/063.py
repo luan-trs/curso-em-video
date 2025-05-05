@@ -3,7 +3,7 @@
 # Formula de Fibonacci: Fn = F¹-1 + F²-2, sendo os primeiros termos igual a 1
 
 quantidade = int(input('Quantos termos da sequência? '))
-contador = 2 #Como os dois primeiros números são 1, eles já serão automaticamente mostrados.
+contador = 3 #Como os dois primeiros números são 1, eles já serão automaticamente mostrados.
 n1 = 1
 n2 = 1
 
