@@ -5,15 +5,16 @@ lista = list()
 valor = 0
 
 while True:
-    valor = input('Valor único a ser adicionado: ')
-    
-    if valor.lower() == 'n':
-        break
-    if (int(valor) not in lista):
+    valor = int(input('Valor único a ser adicionado: '))
+    if valor not in lista:
         lista.append(int(valor))
         print("\033[32mVALOR ADICIONADO COM SUCESSO\033[0m")
     else:
         print("\033[31mVALOR NÃO ADICIONADO\033[0m")
 
+    pergunta = input('Deseja continuar? [s/n] ').lower()
+    if pergunta == 'n':
+        break
+
 lista.sort()
-print(f"\n\033[33mLista em ordem crescente: {lista}")
+print(f"\n\033[33mLista em ordem crescente: {lista}\033[0m")
