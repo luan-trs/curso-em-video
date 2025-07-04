@@ -22,7 +22,10 @@ print('\033[0m')
 print(f'A) Soma dos valores pares da matriz: {soma_pares}')
 
 #Soma os valores da terceira coluna (x, 2)
-soma_coluna = matriz[0][2] + matriz[1][2] + matriz [2][2]
+#soma_coluna = matriz[0][2] + matriz[1][2] + matriz [2][2]
+soma_coluna = 0
+for n in range(3):
+    soma_coluna += matriz[n][2]
 print(f'B) Soma dos valores da terceira coluna: {soma_coluna}')
 
 print(f'C) Maior valor da segunda linha: {max(matriz[1])}')
