@@ -19,10 +19,10 @@ while True:
         break
 
 print('-=-'*15)
-print('Nº  NOME        MÉDIA')
+print(f'{'Nº':<4}{'NOME':<10}{'MÉDIA':>8}')
 print('--'*15)
 for num, al in enumerate(boletim):
-    print(f'{num:0}{al[0]:^10}     {al[3]:.2f}')
+    print(f'{num:<4}{al[0]:<10}{al[3]:>8.1f}')
 
 while True:
     print('--'*15)
