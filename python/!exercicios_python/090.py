@@ -6,6 +6,6 @@ if aluno['Média'] >= 7:
     aluno['Situação'] = 'Aprovado'
 else:
     aluno['Situação'] = 'Reprovado'
-
+print('-=-'*15)
 for k, v in aluno.items():
-    print(f'{k} é igual a {v}')
+    print(f' * {k} é igual a {v}')
