@@ -5,10 +5,9 @@ jogador = {}
 
 jogador['nome'] = str(input('Nome do Jogador: '))
 jogador['gols'] = []
-jogador['total'] = 0
 for g in range(int(input(f'Quantas partidas {jogador['nome']} jogou? '))):
     jogador['gols'].append(int(input(f'  Quantos gols na partida {g}? ')))
-    jogador['total'] += jogador['gols'][g]
+jogador['total'] = sum(jogador['gols'])
 print('-=-'*20)
 
 print(jogador)
