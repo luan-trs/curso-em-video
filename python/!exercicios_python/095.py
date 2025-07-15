@@ -37,7 +37,10 @@ while True:
     index = int(input('\033[33mMostrar os dados de qual jogador? (999 para parar)\033[0m '))
     if index == 999:
         break
-    print(f'\033[43m--- LEVANTAMENTO DO JOGADOR {jogadores[index]["nome"]}:\033[0m')
-    for i, j in enumerate(jogadores[index]['gols']):
-        print(f'    No jogo {i+1} fez {j} gols.')
+    if index >= len(jogadores):
+        print(f'\033[31mERRO! Não existe jogador com o código {index}.\033[0m')
+    else:
+        print(f'\033[43m--- LEVANTAMENTO DO JOGADOR {jogadores[index]["nome"]}:\033[0m')
+        for i, j in enumerate(jogadores[index]['gols']):
+            print(f'    No jogo {i+1} fez {j} gols.')
 print('\033[41m<< PROGRAMA ENCERRADO >>\033[0m')
