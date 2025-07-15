@@ -1,0 +1,1 @@
+'''Uma função chamada area() que recebe as dimensões de um terreno retangular e mostre a area do terreno'''
