@@ -1,0 +1,2 @@
+'''Função chamada ficha() que recebe 2 parâmetros opcionais, sendo eles o nome de um jogador e quantos gols ele 
+marcou. O programa deverá mostrar a ficha do jogador mesmo que algum dado não tenha sido informado corretamente'''

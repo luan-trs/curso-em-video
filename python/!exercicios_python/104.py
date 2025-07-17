@@ -1,0 +1,1 @@
+'''Função leiaInt() que funciona de forma semelhante ao input() só que aceitando apenas valores numéricos'''
